@@ -82,6 +82,7 @@ Future<void> setOptimalDisplayMode() async {
       .where((DisplayMode m) =>
           m.width == active.width && m.height == active.height)
       .toList()
+
     ..sort((DisplayMode a, DisplayMode b) =>
         b.refreshRate.compareTo(a.refreshRate));
   final DisplayMode mostOptimalMode =
