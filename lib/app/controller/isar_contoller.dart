@@ -43,7 +43,7 @@ class IsarController {
     try {
       final timeStamp = DateFormat('yyyyMMdd_HHmmss').format(now);
 
-      final backupFileName = 'backup_todark_db$timeStamp.isar';
+      final backupFileName = 'backup_tharunChowdary_db$timeStamp.isar';
 
       final File backUpFile = File('$backUpDir/$backupFileName');
       if (await backUpFile.exists()) {

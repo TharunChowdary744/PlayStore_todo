@@ -12,8 +12,8 @@ class NotificationShow {
     await requestNotificationPermission();
     AndroidNotificationDetails androidNotificationDetails =
         const AndroidNotificationDetails(
-      'ToDark',
-      'DARK NIGHT',
+      'To Do',
+      'Tharun Chowdary',
       priority: Priority.high,
       importance: Importance.max,
     );
